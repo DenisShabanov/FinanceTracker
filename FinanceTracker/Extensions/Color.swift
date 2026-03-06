@@ -17,12 +17,12 @@ extension Color {
 struct ColorTheme {
     
     let accent = Color("AccentAppColor")
-    let background = Color("")
-    let foodAndDrink = Color("")
-    let health = Color("")
-    let housing = Color("")
-    let other = Color("")
-    let shopping = Color("")
-    let transport = Color("")
+    let background = Color("BackgroundAppTheme")
+    let foodAndDrink = Color("FoodAndDrinkTheme")
+    let health = Color("HealthTheme")
+    let housing = Color("HousingTheme")
+    let other = Color("OtherTheme")
+    let shopping = Color("ShoppingTheme")
+    let transport = Color("TransportTheme")
     
 }
