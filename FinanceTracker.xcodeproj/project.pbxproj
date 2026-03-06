@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		146DE38E2F5B48560005E808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146DE38A2F5B48560005E808 /* Assets.xcassets */; };
+		146DE38F2F5B48560005E808 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE38B2F5B48560005E808 /* ContentView.swift */; };
+		146DE3902F5B48560005E808 /* FinanceTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE38C2F5B48560005E808 /* FinanceTrackerApp.swift */; };
+		146DE3942F5B488B0005E808 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE3932F5B488B0005E808 /* Color.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		146DE36E2F5B46FE0005E808 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +34,13 @@
 		146DE3602F5B46FC0005E808 /* FinanceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146DE36D2F5B46FE0005E808 /* FinanceTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		146DE3772F5B46FE0005E808 /* FinanceTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		146DE38A2F5B48560005E808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		146DE38B2F5B48560005E808 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		146DE38C2F5B48560005E808 /* FinanceTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceTrackerApp.swift; sourceTree = "<group>"; };
+		146DE3932F5B488B0005E808 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		146DE3622F5B46FC0005E808 /* FinanceTracker */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FinanceTracker;
-			sourceTree = "<group>";
-		};
 		146DE3702F5B46FE0005E808 /* FinanceTrackerTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = FinanceTrackerTests;
@@ -75,7 +81,7 @@
 		146DE3572F5B46FC0005E808 = {
 			isa = PBXGroup;
 			children = (
-				146DE3622F5B46FC0005E808 /* FinanceTracker */,
+				146DE38D2F5B48560005E808 /* FinanceTracker */,
 				146DE3702F5B46FE0005E808 /* FinanceTrackerTests */,
 				146DE37A2F5B46FE0005E808 /* FinanceTrackerUITests */,
 				146DE3612F5B46FC0005E808 /* Products */,
@@ -92,6 +98,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		146DE38D2F5B48560005E808 /* FinanceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				146DE3912F5B48620005E808 /* Extensions */,
+				146DE38A2F5B48560005E808 /* Assets.xcassets */,
+				146DE38B2F5B48560005E808 /* ContentView.swift */,
+				146DE38C2F5B48560005E808 /* FinanceTrackerApp.swift */,
+			);
+			path = FinanceTracker;
+			sourceTree = "<group>";
+		};
+		146DE3912F5B48620005E808 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				146DE3932F5B488B0005E808 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +131,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				146DE3622F5B46FC0005E808 /* FinanceTracker */,
 			);
 			name = FinanceTracker;
 			packageProductDependencies = (
@@ -212,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				146DE38E2F5B48560005E808 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				146DE38F2F5B48560005E808 /* ContentView.swift in Sources */,
+				146DE3902F5B48560005E808 /* FinanceTrackerApp.swift in Sources */,
+				146DE3942F5B488B0005E808 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
