@@ -1,0 +1,9 @@
+xcassets:
+    - inputs:
+        - ../Sources/Resources/Colors/Colors.xcassets
+      outputs:
+        - templateName: swift5
+          output: ../Sources/Resources/Colors/Colors.swift
+          params:
+            enumName: Colors
+            publicAccess: true

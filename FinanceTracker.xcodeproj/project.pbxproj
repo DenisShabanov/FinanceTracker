@@ -10,7 +10,12 @@
 		146DE38E2F5B48560005E808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146DE38A2F5B48560005E808 /* Assets.xcassets */; };
 		146DE38F2F5B48560005E808 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE38B2F5B48560005E808 /* ContentView.swift */; };
 		146DE3902F5B48560005E808 /* FinanceTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE38C2F5B48560005E808 /* FinanceTrackerApp.swift */; };
-		146DE3942F5B488B0005E808 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE3932F5B488B0005E808 /* Color.swift */; };
+		146DE3AE2F6058C20005E808 /* swiftgenColors.yml in Resources */ = {isa = PBXBuildFile; fileRef = 146DE3AD2F6058C20005E808 /* swiftgenColors.yml */; };
+		146DE3B62F605BB60005E808 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146DE3B52F605BB60005E808 /* Colors.xcassets */; };
+		146DE3B92F605BE70005E808 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146DE3B82F605BE70005E808 /* Images.xcassets */; };
+		146DE3BB2F6066A80005E808 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE3BA2F6066A80005E808 /* Colors.swift */; };
+		146DE3BD2F6068CC0005E808 /* swiftgenImages.yml in Resources */ = {isa = PBXBuildFile; fileRef = 146DE3BC2F6068BA0005E808 /* swiftgenImages.yml */; };
+		146DE3BF2F6069A20005E808 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE3BE2F6069A20005E808 /* Images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,12 @@
 		146DE38A2F5B48560005E808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		146DE38B2F5B48560005E808 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		146DE38C2F5B48560005E808 /* FinanceTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceTrackerApp.swift; sourceTree = "<group>"; };
-		146DE3932F5B488B0005E808 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		146DE3AD2F6058C20005E808 /* swiftgenColors.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgenColors.yml; sourceTree = "<group>"; };
+		146DE3B52F605BB60005E808 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		146DE3B82F605BE70005E808 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		146DE3BA2F6066A80005E808 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		146DE3BC2F6068BA0005E808 /* swiftgenImages.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgenImages.yml; sourceTree = "<group>"; };
+		146DE3BE2F6069A20005E808 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -101,7 +111,7 @@
 		146DE38D2F5B48560005E808 /* FinanceTracker */ = {
 			isa = PBXGroup;
 			children = (
-				146DE3912F5B48620005E808 /* Extensions */,
+				146DE3A92F6057EA0005E808 /* Resources */,
 				146DE38A2F5B48560005E808 /* Assets.xcassets */,
 				146DE38B2F5B48560005E808 /* ContentView.swift */,
 				146DE38C2F5B48560005E808 /* FinanceTrackerApp.swift */,
@@ -109,12 +119,57 @@
 			path = FinanceTracker;
 			sourceTree = "<group>";
 		};
-		146DE3912F5B48620005E808 /* Extensions */ = {
+		146DE3A92F6057EA0005E808 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				146DE3932F5B488B0005E808 /* Color.swift */,
+				146DE3AF2F605A2F0005E808 /* Sources */,
+				146DE3AA2F6058020005E808 /* Scripts */,
 			);
-			path = Extensions;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		146DE3AA2F6058020005E808 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				146DE3BC2F6068BA0005E808 /* swiftgenImages.yml */,
+				146DE3AD2F6058C20005E808 /* swiftgenColors.yml */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		146DE3AF2F605A2F0005E808 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				146DE3B02F605A3A0005E808 /* Resources */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		146DE3B02F605A3A0005E808 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				146DE3B22F605B200005E808 /* Images */,
+				146DE3B12F605B180005E808 /* Colors */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		146DE3B12F605B180005E808 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				146DE3BA2F6066A80005E808 /* Colors.swift */,
+				146DE3B52F605BB60005E808 /* Colors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		146DE3B22F605B200005E808 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				146DE3BE2F6069A20005E808 /* Images.swift */,
+				146DE3B82F605BE70005E808 /* Images.xcassets */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +289,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				146DE3B62F605BB60005E808 /* Colors.xcassets in Resources */,
+				146DE3BD2F6068CC0005E808 /* swiftgenImages.yml in Resources */,
+				146DE3B92F605BE70005E808 /* Images.xcassets in Resources */,
 				146DE38E2F5B48560005E808 /* Assets.xcassets in Resources */,
+				146DE3AE2F6058C20005E808 /* swiftgenColors.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +319,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				146DE38F2F5B48560005E808 /* ContentView.swift in Sources */,
+				146DE3BB2F6066A80005E808 /* Colors.swift in Sources */,
+				146DE3BF2F6069A20005E808 /* Images.swift in Sources */,
 				146DE3902F5B48560005E808 /* FinanceTrackerApp.swift in Sources */,
-				146DE3942F5B488B0005E808 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

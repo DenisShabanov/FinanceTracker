@@ -1,0 +1,10 @@
+xcassets:
+    - inputs:
+        - ../Sources/Resources/Images/Images.xcassets
+      outputs:
+        - templateName: swift5
+          output: ../Sources/Resources/Images/Images.swift
+          params:
+            enumName: Images
+            publicAccess: true
+
