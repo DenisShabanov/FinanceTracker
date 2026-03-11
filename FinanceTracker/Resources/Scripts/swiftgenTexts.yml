@@ -1,9 +1,0 @@
-yaml:
-    - inputs:
-        - ../Sources/Resources/Texts/Texts.yml
-      outputs:
-        - templateName: inline-swift5
-          output: ../Sources/Resources/Texts/Texts.swift
-          params:
-            enumName: Texts
-            publicAccess: true

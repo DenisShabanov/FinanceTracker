@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		146DE38F2F5B48560005E808 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE38B2F5B48560005E808 /* ContentView.swift */; };
 		146DE3902F5B48560005E808 /* FinanceTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE38C2F5B48560005E808 /* FinanceTrackerApp.swift */; };
 		146DE3AE2F6058C20005E808 /* swiftgenColors.yml in Resources */ = {isa = PBXBuildFile; fileRef = 146DE3AD2F6058C20005E808 /* swiftgenColors.yml */; };
 		146DE3B62F605BB60005E808 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146DE3B52F605BB60005E808 /* Colors.xcassets */; };
@@ -15,8 +14,10 @@
 		146DE3BB2F6066A80005E808 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE3BA2F6066A80005E808 /* Colors.swift */; };
 		146DE3BD2F6068CC0005E808 /* swiftgenImages.yml in Resources */ = {isa = PBXBuildFile; fileRef = 146DE3BC2F6068BA0005E808 /* swiftgenImages.yml */; };
 		146DE3BF2F6069A20005E808 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE3BE2F6069A20005E808 /* Images.swift */; };
-		35D08CE50F28F564268D1CB5 /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912DC22AE51D59A151204EAD /* Texts.swift */; };
-		86DD692527A710BD8B5EA19D /* swiftgenTexts.yml in Resources */ = {isa = PBXBuildFile; fileRef = F531E271A5E4919F1191BD24 /* swiftgenTexts.yml */; };
+		146DE3E22F61D1520005E808 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE3E12F61D1520005E808 /* HomeView.swift */; };
+		146DE3E52F61DFD60005E808 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 146DE3E32F61DFD60005E808 /* Localizable.strings */; };
+		2C8B1B42384B8452E8C25489 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E7BE57207A9E45E56F3CB7 /* L10n.swift */; };
+		D4EAA0638055FB88604C24C9 /* swiftgenStrings.yml in Resources */ = {isa = PBXBuildFile; fileRef = 365B622E83DB51E292CE5F4F /* swiftgenStrings.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,6 @@
 		146DE3602F5B46FC0005E808 /* FinanceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146DE36D2F5B46FE0005E808 /* FinanceTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		146DE3772F5B46FE0005E808 /* FinanceTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		146DE38B2F5B48560005E808 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		146DE38C2F5B48560005E808 /* FinanceTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceTrackerApp.swift; sourceTree = "<group>"; };
 		146DE3AD2F6058C20005E808 /* swiftgenColors.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgenColors.yml; sourceTree = "<group>"; };
 		146DE3B52F605BB60005E808 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
@@ -48,9 +48,11 @@
 		146DE3BA2F6066A80005E808 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		146DE3BC2F6068BA0005E808 /* swiftgenImages.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgenImages.yml; sourceTree = "<group>"; };
 		146DE3BE2F6069A20005E808 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
-		912DC22AE51D59A151204EAD /* Texts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
-		B9AA31B7361D2F9A3A452E94 /* Texts.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = Texts.yml; sourceTree = "<group>"; };
-		F531E271A5E4919F1191BD24 /* swiftgenTexts.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgenTexts.yml; sourceTree = "<group>"; };
+		146DE3E12F61D1520005E808 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		365B622E83DB51E292CE5F4F /* swiftgenStrings.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgenStrings.yml; sourceTree = "<group>"; };
+		146DE3E42F61DFD60005E808 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		146DE3E62F61E0F60005E808 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		94E7BE57207A9E45E56F3CB7 /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -91,13 +93,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1255F38B962D13C36B9772ED /* Texts */ = {
+		1255F38B962D13C36B9772ED /* Localization */ = {
 			isa = PBXGroup;
 			children = (
-				912DC22AE51D59A151204EAD /* Texts.swift */,
-				B9AA31B7361D2F9A3A452E94 /* Texts.yml */,
+				146DE3E32F61DFD60005E808 /* Localizable.strings */,
+				94E7BE57207A9E45E56F3CB7 /* L10n.swift */,
 			);
-			path = Texts;
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		146DE3572F5B46FC0005E808 = {
@@ -124,7 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				146DE3A92F6057EA0005E808 /* Resources */,
-				146DE38B2F5B48560005E808 /* ContentView.swift */,
+				146DE3DE2F61CE3B0005E808 /* Core */,
 				146DE38C2F5B48560005E808 /* FinanceTrackerApp.swift */,
 			);
 			path = FinanceTracker;
@@ -143,7 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				146DE3BC2F6068BA0005E808 /* swiftgenImages.yml */,
-				F531E271A5E4919F1191BD24 /* swiftgenTexts.yml */,
+				365B622E83DB51E292CE5F4F /* swiftgenStrings.yml */,
 				146DE3AD2F6058C20005E808 /* swiftgenColors.yml */,
 			);
 			path = Scripts;
@@ -161,7 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				146DE3B22F605B200005E808 /* Images */,
-				1255F38B962D13C36B9772ED /* Texts */,
+				1255F38B962D13C36B9772ED /* Localization */,
 				146DE3B12F605B180005E808 /* Colors */,
 			);
 			path = Resources;
@@ -183,6 +185,30 @@
 				146DE3B82F605BE70005E808 /* Images.xcassets */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		146DE3DE2F61CE3B0005E808 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				146DE3DF2F61D1310005E808 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		146DE3DF2F61D1310005E808 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				146DE3E02F61D13B0005E808 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		146DE3E02F61D13B0005E808 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				146DE3E12F61D1520005E808 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +308,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 146DE3572F5B46FC0005E808;
 			minimizedProjectReferenceProxies = 1;
@@ -303,8 +330,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				146DE3B62F605BB60005E808 /* Colors.xcassets in Resources */,
+				146DE3E52F61DFD60005E808 /* Localizable.strings in Resources */,
 				146DE3BD2F6068CC0005E808 /* swiftgenImages.yml in Resources */,
-				86DD692527A710BD8B5EA19D /* swiftgenTexts.yml in Resources */,
+				D4EAA0638055FB88604C24C9 /* swiftgenStrings.yml in Resources */,
 				146DE3B92F605BE70005E808 /* Images.xcassets in Resources */,
 				146DE3AE2F6058C20005E808 /* swiftgenColors.yml in Resources */,
 			);
@@ -331,11 +359,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				146DE38F2F5B48560005E808 /* ContentView.swift in Sources */,
 				146DE3BB2F6066A80005E808 /* Colors.swift in Sources */,
 				146DE3BF2F6069A20005E808 /* Images.swift in Sources */,
+				146DE3E22F61D1520005E808 /* HomeView.swift in Sources */,
 				146DE3902F5B48560005E808 /* FinanceTrackerApp.swift in Sources */,
-				35D08CE50F28F564268D1CB5 /* Texts.swift in Sources */,
+				2C8B1B42384B8452E8C25489 /* L10n.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,12 +396,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		146DE3E32F61DFD60005E808 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				146DE3E42F61DFD60005E808 /* en */,
+				146DE3E62F61E0F60005E808 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		146DE37F2F5B46FE0005E808 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -437,6 +478,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
