@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		146DE38E2F5B48560005E808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146DE38A2F5B48560005E808 /* Assets.xcassets */; };
 		146DE38F2F5B48560005E808 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE38B2F5B48560005E808 /* ContentView.swift */; };
 		146DE3902F5B48560005E808 /* FinanceTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE38C2F5B48560005E808 /* FinanceTrackerApp.swift */; };
 		146DE3AE2F6058C20005E808 /* swiftgenColors.yml in Resources */ = {isa = PBXBuildFile; fileRef = 146DE3AD2F6058C20005E808 /* swiftgenColors.yml */; };
@@ -16,6 +15,8 @@
 		146DE3BB2F6066A80005E808 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE3BA2F6066A80005E808 /* Colors.swift */; };
 		146DE3BD2F6068CC0005E808 /* swiftgenImages.yml in Resources */ = {isa = PBXBuildFile; fileRef = 146DE3BC2F6068BA0005E808 /* swiftgenImages.yml */; };
 		146DE3BF2F6069A20005E808 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE3BE2F6069A20005E808 /* Images.swift */; };
+		35D08CE50F28F564268D1CB5 /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912DC22AE51D59A151204EAD /* Texts.swift */; };
+		86DD692527A710BD8B5EA19D /* swiftgenTexts.yml in Resources */ = {isa = PBXBuildFile; fileRef = F531E271A5E4919F1191BD24 /* swiftgenTexts.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		146DE3602F5B46FC0005E808 /* FinanceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146DE36D2F5B46FE0005E808 /* FinanceTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		146DE3772F5B46FE0005E808 /* FinanceTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		146DE38A2F5B48560005E808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		146DE38B2F5B48560005E808 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		146DE38C2F5B48560005E808 /* FinanceTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceTrackerApp.swift; sourceTree = "<group>"; };
 		146DE3AD2F6058C20005E808 /* swiftgenColors.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgenColors.yml; sourceTree = "<group>"; };
@@ -48,6 +48,9 @@
 		146DE3BA2F6066A80005E808 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		146DE3BC2F6068BA0005E808 /* swiftgenImages.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgenImages.yml; sourceTree = "<group>"; };
 		146DE3BE2F6069A20005E808 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		912DC22AE51D59A151204EAD /* Texts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
+		B9AA31B7361D2F9A3A452E94 /* Texts.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = Texts.yml; sourceTree = "<group>"; };
+		F531E271A5E4919F1191BD24 /* swiftgenTexts.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgenTexts.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -88,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1255F38B962D13C36B9772ED /* Texts */ = {
+			isa = PBXGroup;
+			children = (
+				912DC22AE51D59A151204EAD /* Texts.swift */,
+				B9AA31B7361D2F9A3A452E94 /* Texts.yml */,
+			);
+			path = Texts;
+			sourceTree = "<group>";
+		};
 		146DE3572F5B46FC0005E808 = {
 			isa = PBXGroup;
 			children = (
@@ -112,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				146DE3A92F6057EA0005E808 /* Resources */,
-				146DE38A2F5B48560005E808 /* Assets.xcassets */,
 				146DE38B2F5B48560005E808 /* ContentView.swift */,
 				146DE38C2F5B48560005E808 /* FinanceTrackerApp.swift */,
 			);
@@ -132,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				146DE3BC2F6068BA0005E808 /* swiftgenImages.yml */,
+				F531E271A5E4919F1191BD24 /* swiftgenTexts.yml */,
 				146DE3AD2F6058C20005E808 /* swiftgenColors.yml */,
 			);
 			path = Scripts;
@@ -149,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				146DE3B22F605B200005E808 /* Images */,
+				1255F38B962D13C36B9772ED /* Texts */,
 				146DE3B12F605B180005E808 /* Colors */,
 			);
 			path = Resources;
@@ -291,8 +304,8 @@
 			files = (
 				146DE3B62F605BB60005E808 /* Colors.xcassets in Resources */,
 				146DE3BD2F6068CC0005E808 /* swiftgenImages.yml in Resources */,
+				86DD692527A710BD8B5EA19D /* swiftgenTexts.yml in Resources */,
 				146DE3B92F605BE70005E808 /* Images.xcassets in Resources */,
-				146DE38E2F5B48560005E808 /* Assets.xcassets in Resources */,
 				146DE3AE2F6058C20005E808 /* swiftgenColors.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +335,7 @@
 				146DE3BB2F6066A80005E808 /* Colors.swift in Sources */,
 				146DE3BF2F6069A20005E808 /* Images.swift in Sources */,
 				146DE3902F5B48560005E808 /* FinanceTrackerApp.swift in Sources */,
+				35D08CE50F28F564268D1CB5 /* Texts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

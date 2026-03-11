@@ -22,7 +22,7 @@ public typealias AssetColorTypeAlias = ColorAsset.Color
 
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
 public enum Colors {
-  public static let accentAppColor = ColorAsset(name: "AccentAppColor")
+  public static let accentColor = ColorAsset(name: "AccentColor")
   public static let backgroundAppTheme = ColorAsset(name: "BackgroundAppTheme")
   public static let foodAndDrinkTheme = ColorAsset(name: "FoodAndDrinkTheme")
   public static let healthTheme = ColorAsset(name: "HealthTheme")
