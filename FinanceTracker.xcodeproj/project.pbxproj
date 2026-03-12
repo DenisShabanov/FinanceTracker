@@ -16,6 +16,7 @@
 		146DE3BF2F6069A20005E808 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE3BE2F6069A20005E808 /* Images.swift */; };
 		146DE3E22F61D1520005E808 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE3E12F61D1520005E808 /* HomeView.swift */; };
 		146DE3E52F61DFD60005E808 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 146DE3E32F61DFD60005E808 /* Localizable.strings */; };
+		147D6A582F6307C000B00F02 /* CustomCardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147D6A572F6307C000B00F02 /* CustomCardModifier.swift */; };
 		2C8B1B42384B8452E8C25489 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E7BE57207A9E45E56F3CB7 /* L10n.swift */; };
 		D4EAA0638055FB88604C24C9 /* swiftgenStrings.yml in Resources */ = {isa = PBXBuildFile; fileRef = 365B622E83DB51E292CE5F4F /* swiftgenStrings.yml */; };
 /* End PBXBuildFile section */
@@ -49,9 +50,10 @@
 		146DE3BC2F6068BA0005E808 /* swiftgenImages.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgenImages.yml; sourceTree = "<group>"; };
 		146DE3BE2F6069A20005E808 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		146DE3E12F61D1520005E808 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		365B622E83DB51E292CE5F4F /* swiftgenStrings.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgenStrings.yml; sourceTree = "<group>"; };
 		146DE3E42F61DFD60005E808 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		146DE3E62F61E0F60005E808 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		147D6A572F6307C000B00F02 /* CustomCardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardModifier.swift; sourceTree = "<group>"; };
+		365B622E83DB51E292CE5F4F /* swiftgenStrings.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgenStrings.yml; sourceTree = "<group>"; };
 		94E7BE57207A9E45E56F3CB7 /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -190,6 +192,7 @@
 		146DE3DE2F61CE3B0005E808 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				147D6A562F63079900B00F02 /* Components */,
 				146DE3DF2F61D1310005E808 /* Home */,
 			);
 			path = Core;
@@ -209,6 +212,14 @@
 				146DE3E12F61D1520005E808 /* HomeView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		147D6A562F63079900B00F02 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				147D6A572F6307C000B00F02 /* CustomCardModifier.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,6 +375,7 @@
 				146DE3E22F61D1520005E808 /* HomeView.swift in Sources */,
 				146DE3902F5B48560005E808 /* FinanceTrackerApp.swift in Sources */,
 				2C8B1B42384B8452E8C25489 /* L10n.swift in Sources */,
+				147D6A582F6307C000B00F02 /* CustomCardModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,6 +24,7 @@ public typealias AssetColorTypeAlias = ColorAsset.Color
 public enum Colors {
   public static let accentColor = ColorAsset(name: "AccentColor")
   public static let backgroundAppTheme = ColorAsset(name: "BackgroundAppTheme")
+  public static let cardAppColor = ColorAsset(name: "CardAppColor")
   public static let foodAndDrinkTheme = ColorAsset(name: "FoodAndDrinkTheme")
   public static let healthTheme = ColorAsset(name: "HealthTheme")
   public static let housingTheme = ColorAsset(name: "HousingTheme")
