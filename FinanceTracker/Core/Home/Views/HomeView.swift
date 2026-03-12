@@ -8,16 +8,31 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    //MARK: - Body
+    
     var body: some View {
-        VStack(spacing: 8) {
-            Text(L10n.HomeView.title)
-                .font(.title)
-            Text(L10n.HomeView.Balance.Categories.title)
-                .font(.subheadline)
-                .foregroundStyle(.secondary)
+        ZStack {
+            Color(asset: Colors.backgroundAppTheme)
+                .ignoresSafeArea()
+            
+            ScrollView {
+                VStack(alignment: .leading) {
+                    Text(L10n.HomeView.title)
+                        .font(.headline)
+                    Text("$15,662.75")
+                        .font(.largeTitle)
+                    
+                }
+                .foregroundStyle(Color(asset: Colors.accentColor))
+                .padding()
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
         }
     }
 }
+
+//MARK: - Preview
 
 #Preview {
     HomeView()

@@ -1,3 +1,55 @@
-"homeView.title" = "Главная";
-"homeView.balance.categories.title" = "Баланс категорий";
-"homeView.balance.categories.empty" = "Категорий пока нет";
+//MARK: - HomeView
+
+"homeView.title" = "Общий баланс";
+
+//MARK: - HomeView balance
+
+"homeView.balance.thisMonth" = "В этом месяце";
+"homeView.balance.available" = "Доступно";
+
+//MARK: - HomeView categories
+
+"homeView.categories.title" = "Категории";
+"homeView.categories.empty" = "Категорий пока нет";
+
+//MARK: - Categories
+
+"categories.shopping" = "Покупки";
+"categories.housing" = "Жильё";
+"categories.transport" = "Транспорт";
+"categories.foodAndDrink" = "Еда и напитки";
+"categories.health" = "Здоровье";
+"categories.other" = "Прочее";
+
+//MARK: - Tabs
+
+"tabs.home" = "Главная";
+"tabs.graphs" = "Графики";
+"tabs.profile" = "Профиль";
+
+//MARK: - GraphsView
+
+"graphsView.title" = "Аналитика расходов";
+"graphsView.subTitle" = "Визуализирование ваших трат";
+
+//MARK: - GraphsView graph
+
+"graphsView.categoryDistribution.title" = "Категории ваших трат";
+"graphsView.categoryDistribution.spendingCount" = "Общие расходы";
+
+//MARK: - GraphsView monthly chart
+
+"graphsView.monthlyChart.title" = "Динамика по месяцам";
+
+//MARK: - ProfileView
+
+"profileView.title" = "Профиль";
+"profileView.subTitle" = "Управление аккаунтом";
+
+//MARK: - ProfileView option section
+
+"profileView.options.notifications" = "Уведомления";
+"profileView.options.security" = "Безопасность";
+"profileView.options.settings" = "Настройки";
+"profileView.options.support" = "Помощь и поддержка";
+"profileView.options.logOut" = "Выйти";

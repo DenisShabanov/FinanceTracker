@@ -1,3 +1,55 @@
-"homeView.title" = "Home";
-"homeView.balance.categories.title" = "Category balance";
-"homeView.balance.categories.empty" = "No categories yet";
+//MARK: - HomeView
+
+"homeView.title" = "Total Balance";
+
+//MARK: - HomeView balance
+
+"homeView.balance.thisMonth" = "This Month";
+"homeView.balance.available" = "Available";
+
+//MARK: - HomeView categories
+
+"homeView.categories.title" = "Categories";
+"homeView.categories.empty" = "No categories yet";
+
+//MARK: - Categories
+
+"categories.shopping" = "Shopping";
+"categories.housing" = "Housing";
+"categories.transport" = "Transport";
+"categories.foodAndDrink" = "Food & Drink";
+"categories.health" = "Health";
+"categories.other" = "Other";
+
+//MARK: - Tabs
+
+"tabs.home" = "Home";
+"tabs.graphs" = "Graphs";
+"tabs.profile" = "Profile";
+
+//MARK: - GraphsView
+
+"graphsView.title" = "Expense Analytics";
+"graphsView.subTitle" = "Visual breakdown of your spending";
+
+//MARK: - GraphsView graph
+
+"graphsView.categoryDistribution.title" = "Category Distribution";
+"graphsView.categoryDistribution.spendingCount" = "Total Spending";
+
+//MARK: - GraphsView monthly chart
+
+"graphsView.monthlyChart.title" = "Monthly Trend";
+
+//MARK: - ProfileView
+
+"profileView.title" = "Profile";
+"profileView.subTitle" = "Manage your account";
+
+//MARK: - ProfileView option section
+
+"profileView.options.notifications" = "Notifications";
+"profileView.options.security" = "Security";
+"profileView.options.settings" = "Settings";
+"profileView.options.support" = "Help & Support";
+"profileView.options.logOut" = "Log Out";
