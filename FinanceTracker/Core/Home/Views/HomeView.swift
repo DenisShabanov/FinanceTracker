@@ -17,19 +17,30 @@ struct HomeView: View {
                 .ignoresSafeArea()
             
             ScrollView {
-                VStack(alignment: .leading) {
-                    Text(L10n.HomeView.title)
-                        .font(.headline)
-                    Text("$15,662.75")
-                        .font(.largeTitle)
-                    
+                VStack(alignment: .leading, spacing: 40) {
+                    balance
+                    ExpensesView()
                 }
                 .foregroundStyle(Color(asset: Colors.accentColor))
                 .padding()
             }
-            .frame(maxWidth: .infinity, alignment: .leading)
         }
     }
+}
+
+//MARK: - Layout
+
+extension HomeView {
+    
+    private var balance: some View {
+        VStack(alignment: .leading) {
+            Text(L10n.HomeView.title)
+                .font(.headline)
+            Text("$15,662.75")
+                .font(.largeTitle)
+        }
+    }
+    
 }
 
 //MARK: - Preview
