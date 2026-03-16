@@ -20,6 +20,7 @@ struct HomeView: View {
                 VStack(alignment: .leading, spacing: 40) {
                     balance
                     ExpensesView()
+                    CategoriesView()
                 }
                 .foregroundStyle(Color(asset: Colors.accentColor))
                 .padding()
@@ -36,8 +37,10 @@ extension HomeView {
         VStack(alignment: .leading) {
             Text(L10n.HomeView.title)
                 .font(.headline)
+                .foregroundStyle(Color(asset: Colors.accentColor).opacity(0.5))
             Text("$15,662.75")
                 .font(.largeTitle)
+                .foregroundStyle(Color(asset: Colors.accentColor))
         }
     }
     

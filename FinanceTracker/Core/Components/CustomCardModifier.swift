@@ -16,7 +16,7 @@ struct CustomCardModifier: ViewModifier {
             .background(
                 RoundedRectangle(cornerRadius: 20)
                     .fill(Color(asset: Colors.cardAppColor))
-                    .shadow(color: Color(asset: Colors.accentColor).opacity(0.3), radius: 4)
+                    .shadow(color: Color(asset: Colors.accentColor).opacity(0.3), radius: 1)
             )
     }
 }
