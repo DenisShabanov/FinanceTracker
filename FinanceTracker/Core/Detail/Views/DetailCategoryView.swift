@@ -10,6 +10,7 @@ import SwiftUI
 struct DetailCategoryView: View {
     
     //MARK: - State properies
+    
     @State
     var title: String
     @State
@@ -20,15 +21,19 @@ struct DetailCategoryView: View {
     //MARK: - Body
     
     var body: some View {
-        VStack {
-            Text(title)
-                .font(.title)
-                .foregroundStyle(Color(asset: Colors.accentColor))
-                .padding()
-            CategoryIconComponent(icon: icon, color: color, iconSize: 68, frameW: 136, frameH: 136)
+        ZStack {
+            Color(asset: Colors.backgroundAppTheme)
+                .ignoresSafeArea()
+            VStack {
+                Text(title)
+                    .font(.title)
+                    .foregroundStyle(Color(asset: Colors.accentColor))
+                    .padding()
+                CategoryIconComponent(icon: icon, color: color, iconSize: 68, frameW: 136, frameH: 136)
 
-            Spacer()
-            
+                Spacer()
+                
+            }
         }
     }
 }
