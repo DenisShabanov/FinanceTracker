@@ -11,7 +11,9 @@ import SwiftUI
 struct FinanceTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            NavigationStack{
+                HomeView()
+            }
         }
     }
 }

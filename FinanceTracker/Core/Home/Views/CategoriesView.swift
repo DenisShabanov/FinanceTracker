@@ -23,7 +23,7 @@ enum CategoryOption: Int, CaseIterable {
         case .shopping: return "cart"
         case .housing: return "house"
         case .transport: return "car"
-        case .foodAndDrink: return "cup.and.heat.waves"
+        case .foodAndDrink: return "cup.and.saucer"
         case .health: return "heart"
         case .other: return "ellipsis"
         }
@@ -64,7 +64,21 @@ struct CategoriesView: View {
                 .font(.title)
                 .foregroundStyle(Color(asset: Colors.accentColor))
             ForEach(CategoryOption.allCases, id: \.self) { category in
-                CategoryRowView(icon: category.icon, category: category.title, expenses: "$123123" , color: category.color)
+                NavigationLink {
+                    DetailCategoryView(
+                      title: category.title,
+                      icon: category.icon,
+                      color: category.color
+                    )
+                  } label: {
+                    CategoryRowView(
+                      icon: category.icon,
+                      category: category.title,
+                      expenses: "$123123",
+                      color: category.color
+                    )
+                  }
+                  
             }
         }
     }

@@ -41,6 +41,7 @@ extension ExpensesView {
     private var moneySection: some View {
         HStack {
             Text("$5,662.75")
+                .foregroundStyle(Color(asset: Colors.accentColor))
             Spacer()
             Text("$10,000.00")
                 .foregroundStyle(Color(asset: Colors.transportTheme))

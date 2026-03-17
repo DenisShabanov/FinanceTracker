@@ -25,6 +25,7 @@ struct HomeView: View {
                 .foregroundStyle(Color(asset: Colors.accentColor))
                 .padding()
             }
+            .scrollIndicators(.hidden)
         }
     }
 }
