@@ -20,15 +20,15 @@ struct CategoryRowView: View {
     
     var body: some View {
         HStack {
-            Image(systemName: icon)
-                .font(.system(size: 24, weight: .regular))
-                .frame(width: 24, height: 24, alignment: .center)
-                .foregroundStyle(Color(asset: Colors.backgroundAppTheme))
-                .padding()
-                .background(
-                    Circle()
-                        .fill(color)
-                )
+            ZStack {
+                Circle()
+                    .fill(color)
+
+                Image(systemName: icon)
+                    .font(.system(size: 22))
+                    .foregroundStyle(Color(asset: Colors.backgroundAppTheme))
+            }
+            .frame(width: 48, height: 48)
             Text(category)
                 .font(.title2)
                 .foregroundStyle(Color(asset: Colors.accentColor))
