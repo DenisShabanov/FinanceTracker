@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		14671A632F6997A4009A6E0A /* CategoryExpenseRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14671A622F6997A4009A6E0A /* CategoryExpenseRowView.swift */; };
+		14671A802F69B325009A6E0A /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14671A7F2F69B325009A6E0A /* Double.swift */; };
 		146DE3902F5B48560005E808 /* FinanceTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DE38C2F5B48560005E808 /* FinanceTrackerApp.swift */; };
 		146DE3AE2F6058C20005E808 /* swiftgenColors.yml in Resources */ = {isa = PBXBuildFile; fileRef = 146DE3AD2F6058C20005E808 /* swiftgenColors.yml */; };
 		146DE3B62F605BB60005E808 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146DE3B52F605BB60005E808 /* Colors.xcassets */; };
@@ -46,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		14671A622F6997A4009A6E0A /* CategoryExpenseRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryExpenseRowView.swift; sourceTree = "<group>"; };
+		14671A7F2F69B325009A6E0A /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		146DE3602F5B46FC0005E808 /* FinanceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146DE36D2F5B46FE0005E808 /* FinanceTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		146DE3772F5B46FE0005E808 /* FinanceTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +135,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		14671A7E2F69B307009A6E0A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				14671A7F2F69B325009A6E0A /* Double.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		146DE3572F5B46FC0005E808 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +168,7 @@
 			children = (
 				146DE3A92F6057EA0005E808 /* Resources */,
 				146DE3DE2F61CE3B0005E808 /* Core */,
+				14671A7E2F69B307009A6E0A /* Extensions */,
 				146DE38C2F5B48560005E808 /* FinanceTrackerApp.swift */,
 			);
 			path = FinanceTracker;
@@ -408,6 +419,7 @@
 				147D6A8C2F696F3900B00F02 /* DetailCategoryView.swift in Sources */,
 				146DE3BB2F6066A80005E808 /* Colors.swift in Sources */,
 				147D6A782F6856A000B00F02 /* CategoryRowView.swift in Sources */,
+				14671A802F69B325009A6E0A /* Double.swift in Sources */,
 				14671A632F6997A4009A6E0A /* CategoryExpenseRowView.swift in Sources */,
 				146DE3BF2F6069A20005E808 /* Images.swift in Sources */,
 				146DE3E22F61D1520005E808 /* HomeView.swift in Sources */,
